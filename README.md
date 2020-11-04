@@ -6,10 +6,10 @@ This Chatbot is based on several tutorials.
 
 We are using pipenv. Unless you don't want to run in global python environment, you should too!
 
-'''
+```
 pipenv shell
 pipenv run python train.py
-'''
+```
 
 ## Errors
 
@@ -17,8 +17,8 @@ pipenv run python train.py
 
 If you get errors with pipenv try:
 
-'''
+```
 pipenv --rm
 pipenv sync
 pipenv lock
-'''
+```
