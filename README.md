@@ -9,6 +9,7 @@ We are using pipenv. Unless you don't want to run in global python environment, 
 ```
 pipenv shell
 pipenv run python train.py
+pipenv run python chat.py
 ```
 
 ## Errors

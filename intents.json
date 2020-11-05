@@ -36,7 +36,8 @@
         "patterns": [
           "Which items do you have?",
           "What kinds of items are there?",
-          "What do you sell?"
+          "What do you sell?", 
+          "What are you offering?"
         ],
         "responses": [
           "We sell coffee and tea",
@@ -57,6 +58,17 @@
         ]
       },
       {
+        "tag": "prices",
+        "patterns": [
+            "What are the prices?", 
+            "Tell me about prices.", 
+            "How much is coffee?"
+        ],
+        "responses": [
+          "You can download prices from our Website. Just visit http://imaginaryCoffe.com"
+        ]
+      },
+      {
         "tag": "delivery",
         "patterns": [
           "How long does delivery take?",
@@ -69,6 +81,18 @@
         ]
       },
       {
+        "tag": "help",
+        "patterns": [
+          "I need help",
+          "What can you do?",
+          "What are you capable of?"
+        ],
+        "responses": [
+          "I try to help you shopping. Just ask me what we offer or for prices.", 
+          "OK just ask me about our offerings!"
+        ]
+      },
+      {
         "tag": "funny",
         "patterns": [
           "Tell me a joke!",
@@ -76,9 +100,12 @@
           "Do you know a joke?"
         ],
         "responses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
+          "Chuck Norris recently solved the Formula 1",
+          "What did the buffalo say when his son left for college? Bison.", 
+          "Helvetica and Times New Roman walk into a bar... 'Get out of here!' shouts the bartender. 'We don’t serve your type.'",
+          "Documentation is like Sex. If it's good, it's good. If not, it's better than nothing."
         ]
       }
     ]
   }
+  
