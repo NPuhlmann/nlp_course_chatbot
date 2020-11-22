@@ -41,7 +41,9 @@
         ],
         "responses": [
           "We sell coffee and tea",
-          "We have coffee and tea"
+          "We have coffee and tea", 
+          "You can buy the best coffee and tea from us!", 
+          "We offer many sorts of fair trade coffee and tea"
         ]
       },
       {
@@ -106,6 +108,15 @@
           "Documentation is like Sex. If it's good, it's good. If not, it's better than nothing."
         ]
       }
+    ], 
+    "wrong": [
+      
+          "I do not understand.", 
+          "I didn't understand your question. Maybe you might wan't to ask something else?", 
+          "Can you be more precice about your question?", 
+          "I don't get it... maybe you should ask me what I can do for you!", 
+          "That's a hard question! Please ask a simpler one :)"
+
     ]
   }
   

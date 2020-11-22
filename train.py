@@ -1,5 +1,4 @@
 import numpy as np
-import random
 import json
 
 import torch
@@ -35,7 +34,7 @@ all_words = [stem(w) for w in all_words if w not in ignore_words]
 all_words = sorted(set(all_words))
 tags = sorted(set(tags))
 
-print(len(xy), "patterns")
+print(len(xy), "patterns: ", xy)
 print(len(tags), "tags:", tags)
 print(len(all_words), "unique stemmed words:", all_words)
 
